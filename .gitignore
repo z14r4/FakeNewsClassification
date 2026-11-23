@@ -1,0 +1,28 @@
+# data
+images/
+multimodal_only_samples/
+
+# training outputs
+runs/
+wandb/
+*.pt
+*.ckpt
+
+# logs
+*.out
+*.err
+nohup.out
+tea_debug.log
+view
+.claude/
+
+# python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+
+# editor / OS
+.DS_Store
+.idea/
+.vscode/
